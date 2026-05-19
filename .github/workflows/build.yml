@@ -16,12 +16,16 @@ jobs:
     - name: Install Build Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y live-build debootstrap squashfs-tools
+        sudo apt-get install -y live-build debootstrap squashfs-tools dos2unix
 
+    - name: Fix Line Endings and Permissions
+      run: |
+        find . -type f -name "*.sh" -exec dos2unix {} +
+        chmod +x build_iso.sh
+        
     - name: Run ISO Builder
       run: |
-        chmod +x build_iso.sh
-        sudo ./build_iso.sh
+        sudo bash ./build_iso.sh
 
     - name: Upload ISO Artifact
       uses: actions/upload-artifact@v3
