@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Install Nors OS
+GenericName=Live Installer
+Comment=Install Nors OS to a permanent disk
+Exec=pkexec /usr/bin/python3 /opt/NorsInstaller/nors_installer_ui.py
+Icon=drive-harddisk
+Terminal=false
+Type=Application
+Categories=System;Setup;
+StartupNotify=true

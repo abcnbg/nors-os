@@ -1,0 +1,58 @@
+# Base System & Desktop
+linux-image-amd64
+live-boot
+live-config
+systemd-sysv
+grub-efi-amd64
+kde-plasma-desktop
+kwin-x11
+papirus-icon-theme
+
+# Information Gathering
+nmap
+zenmap-kbx
+maltego
+recon-ng
+theharvester
+spiderfoot
+
+# Vulnerability Assessment
+openvas
+nikto
+wpscan
+
+# Exploitation Tools
+metasploit-framework
+exploitdb
+beef-xss
+sqlmap
+
+# Social Engineering & Web
+set
+burpsuite
+zaproxy
+hydra
+john
+hashcat
+
+# Wireless
+aircrack-ng
+wifite
+kismet
+wireshark
+bettercap
+reaver
+
+# Post-Exploitation & Defense
+powershell-empire
+mimikatz
+snort
+ossec-hids
+clamav
+
+# Utils
+bottles
+wine
+winetricks
+htop
+iotop

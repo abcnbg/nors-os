@@ -1,0 +1,18 @@
+[Colors:Window]
+BackgroundNormal=10,25,47
+BackgroundAlternate=17,34,64
+ForegroundNormal=255,255,255
+ForegroundInactive=176,196,222
+ForegroundActive=0,180,216
+
+[Colors:Button]
+BackgroundNormal=0,180,216
+BackgroundAlternate=0,150,180
+ForegroundNormal=0,0,0
+
+[Colors:Selection]
+BackgroundNormal=0,180,216
+ForegroundNormal=255,255,255
+
+[General]
+Name=NorsDream Dark
